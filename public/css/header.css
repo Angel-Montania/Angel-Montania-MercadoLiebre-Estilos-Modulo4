@@ -1,0 +1,48 @@
+header {
+    background-color: var(--yellow);
+    font-size: var(--paragraph);
+    padding-bottom: 5px;
+}
+
+header .burger-menu{
+    color: white;
+    background-color: var(--light_blue);
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+header .row1 {
+    margin-left: 2rem;
+}
+
+header .row1 .logo {
+    padding-top: 15px;
+    width: 40vw;
+    margin-bottom: 10px;
+}
+
+header .row1 .search-bar {
+    width: 40vw;
+    height: 30px;
+}
+
+header .row1 .search-bar form {
+    padding: 0;
+    width: 100%;
+}
+
+header .row1 .search-bar form input {
+    width: 90%;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+header .row1 .quota {
+    text-align: center;
+    margin: 10px 0 10px;
+}
